@@ -1,0 +1,20 @@
+.alibibg { width: 353px; height: 403px; padding: 30px; background: url(http://i.imgur.com/Kj0FtV3.png); overflow: hidden; margin: 20px 0 0 0;}
+
+.alibipic { width: 350px; height: 350px; border: solid 1px #AAAAAA; background-size: 400px 400px; overflow: hidden;}
+
+.alibipanel { width: 330px; height: 30px; border: solid 1px #AAAAAA; padding: 10px; background: #f7f7f7; margin-top: -1px; text-align: right; font: 9px trebuchet ms; text-transform: uppercase; letter-spacing: 1px; color: #747373}
+
+.alibipanel b { font: bold 30px/25px poppins; display: block; letter-spacing: -1px; color: #ad888c;}
+
+.alibifade { width: 350px; height: 350px; background: rgba(0,0,0,.6); margin-right: -700px; transition: .7s; transition-delay: .7s;}
+
+.alibiborder { width: 280px; height: 280px; padding: 10px; border: solid 1px #fff; margin-top: -325px; margin-left: -700px; transition: .7s; transition-delay: .7s;}
+
+.alibitext { height: 240px; width: 235px; padding-right: 5px; overflow: auto; text-align: justify; color: #fff; font: 10px/15px helvetica; margin-top: -270px; opacity: 0; transition: .7s;}
+
+.alibitext::-webkit-scrollbar { width: 1px!important; background: transparent!important; border: none!important}
+.alibitext::-webkit-scrollbar-thumb { width: 1px!important; background: #fff!important; border:none!important}
+
+.alibibg:hover .alibifade { margin-right: 0; transition: .7s; }
+.alibibg:hover .alibiborder { margin-left: 0; transition: .7s; }
+.alibibg:hover .alibitext { opacity: 1; transition: .7s; transition-delay: .7s; }
