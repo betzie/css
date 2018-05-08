@@ -1,10 +1,10 @@
-.alibibg { width: 353px; height: 403px; padding: 30px; background: url(http://i.imgur.com/Kj0FtV3.png); overflow: hidden; margin: 20px 0 0 0;}
+.alibibg { width: 353px; height: 403px; padding: 30px; overflow: hidden; margin: 20px 0 0 0;}
 
 .alibipic { width: 350px; height: 350px; border: solid 1px #AAAAAA; background-size: 400px 400px; overflow: hidden;}
 
 .alibipanel { width: 330px; height: 30px; border: solid 1px #AAAAAA; padding: 10px; background: #f7f7f7; margin-top: -1px; text-align: right; font: 9px trebuchet ms; text-transform: uppercase; letter-spacing: 1px; color: #747373}
 
-.alibipanel b { font: bold 30px/25px poppins; display: block; letter-spacing: -1px; color: #ad888c;}
+.alibipanel b { font: bold 30px/25px poppins; display: block; letter-spacing: -1px; color: #678643;}
 
 .alibifade { width: 350px; height: 350px; background: rgba(0,0,0,.6); margin-right: -700px; transition: .7s; transition-delay: .7s;}
 
