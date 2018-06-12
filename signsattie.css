@@ -1,0 +1,81 @@
+.foto1 { 
+   background-image: url(https://78.media.tumblr.com/683215486782e402b64793bf25f5a710/tumblr_inline_p7g1tpaxHz1snuszy_540.png);
+   background-size: cover;
+   background-position: 25px 0px;
+   -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+   width: 150px; 
+   height: 150px;
+   position: absolute;
+   top: 10px;
+   right:10px;        }
+
+.foto1fundo {
+  background-color: white;
+  width: 170px;
+  height: 170px;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  position: absolute;
+  top: 15px; 
+  left: 15px;
+}
+.foto1fundo2 {
+  background-color: #a7bbc6;
+  width: 180px;
+  height: 180px;
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  position: absolute;
+  top: 10px; 
+  left: 10px;
+}
+.forma1 {
+  position:relative;
+  width:400px;   
+  height:180px;
+}
+.nome1{
+  font-family: 'Sacramento', cursive;
+  font-size: 95px; 
+  color: #a7bbc6;
+  padding-left: 110px;
+  padding-top: 25px; 
+  position: relative;  
+}
+.nome1:hover {
+  color: transparent;
+  transition: 1.5s;
+  background: linear-gradient(#75aacb, #c378a3, #f0cf9f);
+      background-size: 100% 100%;
+  -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text; 
+}
+.nome2 {
+  font-family: arial; 
+  background-color: #a7bbc6; 
+  position: relative; 
+  width: 225px; 
+  height:15px;
+  color: white; 
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px; 
+  bottom: 40px; 
+  left:67px;
+  letter-spacing: 8px; 
+  font-size: 11px;  
+}
+.credito{
+  font-family: arial; 
+  font-size: 7px; 
+  color: grey; 
+  position: absolute;
+  bottom: 110px;
+  left: 60px;
+  text-transform: uppercase;
+}
