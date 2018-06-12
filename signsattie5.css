@@ -42,6 +42,7 @@
     padding-left: 128px;
     padding-top: 70px;
     position: absolute;  
+    width: 250px;
 }
 .nome1:hover {
   color: transparent;
@@ -53,24 +54,25 @@
     -moz-background-clip: text;
     -ms-background-clip: text;
     -o-background-clip: text; 
-   width:250px; 
-   height:140px;
+   width: 250px;
+   height: 140px;
 }
 .nome2 {
   font-family: calibri;
-    background-color: #a7bbc6;
     position: absolute;
-    width: 225px;
+    width: 220px;
     height: 15px;
-    color: black;
+    color: #a7bbc6;
     text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
     bottom: 45px;
-    left: 145px;
+    left: 150px;
     letter-spacing: 8px;
-    font-size: 11px;  
+    font-size: 11px;
+    outline: 1px solid #a7bbc6;
+    outline-offset: -2px; 
 }
 .credito{
   font-family: arial;
