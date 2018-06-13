@@ -1,0 +1,39 @@
+.nome1{
+  font-family: 'Sacramento', cursive; 
+  font-size: 42px; 
+  color: #ff3366;
+  -webkit-transition: ease-in-out 0.7s; 
+  -moz-transition: ease-in-out 0.7s; 
+  -o-transition: ease-in-out 0.7s; 
+  -ms-transition: ease-in-out 0.7s; 
+  transition: ease-in-out 0.7s; 
+  transition-delay: 0.7s; 
+ text-shadow: 2px 1px #464646; 
+ width: 300px;
+ z-index: 1;
+ position: absolute;
+ left: 185px;
+ top: 2px;
+
+}
+.nome1:hover{
+  color: rgb(105, 187, 140); 
+  text-shadow: -1px 1px #f7f7f7;
+}
+.borda1{
+  border-bottom: 1px dotted #464646;
+  width: 300px;
+  position: absolute;
+  left: 185px;
+  top: 44px;
+  z-index: 2;
+}
+.subtitutlo1{
+  font-family: arial; 
+  color: #3e3e3e;
+  position: absolute;
+  font-size: 10px;
+  text-transform: uppercase;
+  left: 195px;
+  top: 50px;
+  letter-spacing: -1px;
